@@ -88,6 +88,11 @@ public class MaterialInstancesCreator : EditorWindow {
         var selectedCompressedMatName = ($"{selectedObjName}_{COMPRESSED_MAT}");
         var selectedCompressedScaledMatName = ($"{selectedObjName}_{COMPRESSED_SCALED_MAT}");
         var selectedObjPath = AssetDatabase.GetAssetPath(selectedObj);
+        
+        if (!File.Exists(selectedObjPath)) {
+            Debug.LogError("[MaterialInstancesCreator] ==> Can't create dependencies from scene selection.");
+            return;
+        }
         var selectedObjectDirectoryPath = Path.GetDirectoryName(selectedObjPath);
 
         var materialForCompressedTexture = new Material(shaderSource);
