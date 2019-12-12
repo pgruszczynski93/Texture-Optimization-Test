@@ -1,5 +1,6 @@
 ﻿#if UNITY_EDITOR
 using System;
+using System.Globalization;
 using System.IO;
 using UnityEditor;
 using UnityEditor.PackageManager;
@@ -13,21 +14,73 @@ public class MaterialInstancesCreator : EditorWindow {
     const string COMPRESSED_TEXTURES = "CompressedData";
     const string COMPRESSED_SCALED_TEXTURES = "CompressedScaledData";
 
+    static int currentIndex;
+    static float currentProgress;
+    static GameObject[] selectedObjs;
+    
     string selectedObjPath;
+    
+    
+    void OnGUI() {
+        TryToDrawProgressBar();
+    }
+    
+    void OnInspectorUpdate()
+    {
+        Repaint();
+    }
+    
+    [MenuItem("Testing/Material Instance Creator")]
+    static void DrawWindow() {
+        var window = GetWindow<MaterialInstancesCreator>();
+        window.Show();
+    }
 
-    [MenuItem("Assets/Material Instance Creator")]
-    public static void TryToCreateMaterialsForSelection() {
-        var selectedObjs = Selection.gameObjects;
-        if (selectedObjs == null || selectedObjs.Length == 0) {
-            Debug.LogError("No objects created.");
+    void TryToDrawProgressBar() {
+        EditorGUILayout.LabelField($"Selected prefabs: {Selection.gameObjects.Length}");
+
+        if (!GUILayout.Button("Create dependencies for prefabs.")) 
             return;
-        }
+        
+        if (!HasActiveSelection()) 
+            return;
+
+        TryToCreateMaterialsForSelection();
+    }
+
+    static void TryToUpdateProgressBar() {
+        if (currentProgress < 1.0f)
+            EditorUtility.DisplayProgressBar("Processing...", $"{(currentProgress * (100)).ToString(CultureInfo.InvariantCulture)} %", currentProgress);
+        else
+            EditorUtility.ClearProgressBar();
+    }
+
+    static void TryToCreateMaterialsForSelection() {
+        if (!HasActiveSelection()) return;
 
         var shaderSource = Shader.Find("Standard");
-
-        for (var i = 0; i < selectedObjs.Length; i++) {
+        var selectionCount = selectedObjs.Length;
+        
+        for (var i = 0; i < selectionCount; i++) {
+            RecalculateProgress(i, selectionCount);
             CreateDependencies(selectedObjs[i], shaderSource);
         }
+    }
+
+    static void RecalculateProgress(int i, int selectionCount) {
+        currentIndex = i + 1;
+        currentProgress = (float) currentIndex / selectionCount;
+        TryToUpdateProgressBar();
+    }
+
+    static bool HasActiveSelection() {
+        selectedObjs = Selection.gameObjects;
+        if (selectedObjs != null && selectedObjs.Length != 0)
+            return true;
+        
+        Debug.LogError("No objects created.");
+        return false;
+
     }
 
     static void CreateDependencies(GameObject selectedObj, Shader shaderSource) {
