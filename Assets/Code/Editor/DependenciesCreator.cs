@@ -10,10 +10,10 @@ public class DependenciesCreator : EditorWindow {
     const string COMPRESSED_MAT = "compressed_mat.mat";
     const string COMPRESSED_SCALED_MAT = "compressed_scaled_mat.mat";
     const string ASSETS = "Assets";
-    const string TEXTURES = "Textures";
+    const string PREFABS_DATA = "PrefabsData";
     const string ITEM = "Item";
-    const string COMPRESSED_TEXTURES = "CompressedData";
-    const string COMPRESSED_SCALED_TEXTURES = "CompressedScaledData";
+    const string COMPRESSED_DATA = "CompressedData";
+    const string COMPRESSED_SCALED_DATA = "CompressedScaledData";
     const string PREFABS_PATH = "Assets/Prefabs/ItemsPrefabs/";
 
     static int currentIndex;
@@ -21,23 +21,23 @@ public class DependenciesCreator : EditorWindow {
     static GameObject[] selectedObjs;
 
     static GameObject itemTemplate;
-    
+
     string selectedObjPath;
-    
-    
+
+
     void OnGUI() {
         TryToDrawLayout();
     }
-    
-    void OnInspectorUpdate()
-    {
+
+    void OnInspectorUpdate() {
         Repaint();
     }
 
     void TryToDrawItemTemplateObjectField() {
-        itemTemplate = (GameObject)EditorGUILayout.ObjectField("Item template", itemTemplate, typeof(GameObject), true);
+        itemTemplate =
+            (GameObject) EditorGUILayout.ObjectField("Item template", itemTemplate, typeof(GameObject), true);
     }
-    
+
     [MenuItem("Testing/Material Instance Creator")]
     static void DrawWindow() {
         var window = GetWindow<DependenciesCreator>();
@@ -46,13 +46,13 @@ public class DependenciesCreator : EditorWindow {
 
     void TryToDrawLayout() {
         TryToDrawItemTemplateObjectField();
-        
+
         EditorGUILayout.LabelField($"Selected prefabs: {Selection.gameObjects.Length}");
 
-        if (!GUILayout.Button("Create dependencies for prefabs.")) 
+        if (!GUILayout.Button("Create dependencies for prefabs."))
             return;
-        
-        if (!HasActiveSelection()) 
+
+        if (!HasActiveSelection())
             return;
 
         TryToCreateDependenciesForSelection();
@@ -60,7 +60,8 @@ public class DependenciesCreator : EditorWindow {
 
     static void TryToUpdateProgressBar() {
         if (currentProgress < 1.0f)
-            EditorUtility.DisplayProgressBar("Processing...", $"{(currentProgress * (100)).ToString(CultureInfo.InvariantCulture)} %", currentProgress);
+            EditorUtility.DisplayProgressBar("Processing...",
+                $"{(currentProgress * (100)).ToString(CultureInfo.InvariantCulture)} %", currentProgress);
         else
             EditorUtility.ClearProgressBar();
     }
@@ -68,12 +69,11 @@ public class DependenciesCreator : EditorWindow {
     static void TryToCreateDependenciesForSelection() {
         if (!HasActiveSelection()) return;
 
-        var shaderSource = Shader.Find("Standard");
         var selectionCount = selectedObjs.Length;
-        
+
         for (var i = 0; i < selectionCount; i++) {
             RecalculateProgress(i, selectionCount);
-            CreateDependencies(selectedObjs[i], shaderSource);
+            CreateDependencies(selectedObjs[i]);
         }
     }
 
@@ -87,98 +87,88 @@ public class DependenciesCreator : EditorWindow {
         selectedObjs = Selection.gameObjects;
         if (selectedObjs != null && selectedObjs.Length != 0)
             return true;
-        
+
         Debug.LogError("No objects created.");
         return false;
-
     }
 
-    static void CreateDependencies(GameObject selectedObj, Shader shaderSource) {
+    static void CreateDependencies(GameObject selectedObj) {
         var selectedObjName = selectedObj.name;
-        var selectedCompressedMatName = ($"{selectedObjName}_{COMPRESSED_MAT}");
-        var selectedCompressedScaledMatName = ($"{selectedObjName}_{COMPRESSED_SCALED_MAT}");
         var selectedObjPath = AssetDatabase.GetAssetPath(selectedObj);
-        
+
         if (!File.Exists(selectedObjPath)) {
             Debug.LogError("[MaterialInstancesCreator] ==> Can't create dependencies from scene selection.");
             return;
         }
+
         var selectedObjectDirectoryPath = Path.GetDirectoryName(selectedObjPath);
 
-        var materialForCompressedTexture = new Material(shaderSource);
-        var materialForCompressedScaledTexture = new Material(shaderSource);
 
         var assetDirectoryPath = Path.Combine(Directory.GetCurrentDirectory(), selectedObjectDirectoryPath);
-        var assetDirectoryTexturesPath = Path.Combine(assetDirectoryPath, $"{TEXTURES}_{selectedObjName}");
+        var assetDirectoryTexturesPath = Path.Combine(assetDirectoryPath, $"{PREFABS_DATA}_{selectedObjName}");
 
-        CreateDependencies(selectedObj, 
-            assetDirectoryTexturesPath,
-            materialForCompressedTexture, 
-            selectedCompressedMatName, 
-            materialForCompressedScaledTexture,
-            selectedCompressedScaledMatName);
-
+        CreateDependencies(selectedObj,
+            assetDirectoryTexturesPath);
     }
 
-    static void CreateDependencies(GameObject selectedObj, string assetDirectoryTexturesPath, Material materialForCompressedTexture,
-        string selectedCompressedMatName, Material materialForCompressedScaledTexture,
-        string selectedCompressedScaledMatName) {
-        
+    static void CreateDependencies(GameObject selectedObj, string assetDirectoryTexturesPath) {
         if (!Directory.Exists(assetDirectoryTexturesPath)) {
             Directory.CreateDirectory(assetDirectoryTexturesPath);
-            var compressedTextureDirectoryPath = Path.Combine(assetDirectoryTexturesPath, COMPRESSED_TEXTURES);
-            var compressedScaledTextureDirectoryPath =
-                Path.Combine(assetDirectoryTexturesPath, COMPRESSED_SCALED_TEXTURES);
-            CreateDirectory(compressedTextureDirectoryPath);
-            CreateDirectory(compressedScaledTextureDirectoryPath);
+            var compressedDataDirectoryPath = Path.Combine(assetDirectoryTexturesPath, COMPRESSED_DATA);
+            var compressedScaledDataDirectoryPath =
+                Path.Combine(assetDirectoryTexturesPath, COMPRESSED_SCALED_DATA);
+            CreateDirectory(compressedDataDirectoryPath);
+            CreateDirectory(compressedScaledDataDirectoryPath);
 
-            CreateMaterialAsset(materialForCompressedTexture,
-                Path.Combine(compressedTextureDirectoryPath, selectedCompressedMatName));
-            CreateMaterialAsset(materialForCompressedScaledTexture,
-                Path.Combine(compressedScaledTextureDirectoryPath, selectedCompressedScaledMatName));
-            
-            CreatePrefabAsset(selectedObj, materialForCompressedTexture, materialForCompressedScaledTexture);
+            CreatePrefabAsset(selectedObj, compressedDataDirectoryPath,compressedScaledDataDirectoryPath);
         }
-        
+
         AssetDatabase.Refresh();
     }
 
-    static void CreatePrefabAsset(GameObject selectedObj, Material materialForCompresed, Material materialForCompressedScaled) {
-        var tmpGO = Instantiate(itemTemplate);
-        var tmpTransform = tmpGO.transform;
+    static void CreatePrefabAsset(GameObject selectedObj, string compressedDataDirPath, string compressedScaledDirPath) {
+        
+        var tmpTemplate = Instantiate(itemTemplate);
+        var templateTransform = tmpTemplate.transform;
         var selectedName = selectedObj.name;
-        
-        var originalChild = Instantiate(selectedObj, tmpGO.transform.GetChild(0), true);
-        originalChild.name = $"{selectedName}_orig";
-        
-        SetupChildGameObject(selectedObj, tmpTransform, materialForCompresed, 1, "compressed");
-        SetupChildGameObject(selectedObj, tmpTransform, materialForCompressedScaled, 2, "compressedScaled");
-        
+        tmpTemplate.name = selectedName;
+
+        var originalObjCopy = Instantiate(selectedObj, tmpTemplate.transform.GetChild(0), true);
+        originalObjCopy.name = $"{selectedName}_orig";
+
+        SetupChildGameObject(selectedObj, templateTransform, 1, "compressed", compressedDataDirPath);
+        SetupChildGameObject(selectedObj, templateTransform, 2, "compressedScaled",
+            compressedScaledDirPath);
+
         var preafabAssetPath = Path.Combine(PREFABS_PATH, $"{ITEM}_{selectedName}.prefab");
-        var prefabAsset = PrefabUtility.SaveAsPrefabAsset(tmpGO, preafabAssetPath);
-        DestroyImmediate(tmpGO);
+        var prefabAsset = PrefabUtility.SaveAsPrefabAsset(tmpTemplate, preafabAssetPath);
+        DestroyImmediate(tmpTemplate);
     }
 
-    static void SetupChildGameObject(GameObject sourceObj, Transform parent, Material newMaterial, int childIndex, string namePostFix) {
+    static void SetupChildGameObject(GameObject sourceObj, Transform parent, int childIndex, string namePostFix,
+        string materialPath) {
         var newChildName = $"{sourceObj.name}_{namePostFix}";
-        
-        var newChild = Instantiate(sourceObj,  parent.GetChild(childIndex), true);
+
+        var newChild = Instantiate(sourceObj, parent.GetChild(childIndex), true);
         newChild.name = newChildName;
 
-        var allRenderers = newChild.GetComponentsInChildren<Renderer>();
-        for (var i = 0; i < allRenderers.Length; i++) {
-            var materials = allRenderers[i].sharedMaterials;
+        var childRenderers = newChild.GetComponentsInChildren<Renderer>();
+        var sourceRenderers = sourceObj.GetComponentsInChildren<Renderer>();
+        
+        for (var i = 0; i < sourceRenderers.Length; i++) {
+            var copiedMaterials = new Material[sourceRenderers[i].sharedMaterials.Length];
 
-            for (var j = 0; j < materials.Length; j++) {
-                materials[j] = newMaterial;
+            for (var j = 0; j < copiedMaterials.Length; j++) {
+                var sharedMat = sourceRenderers[i].sharedMaterials[j];
+                copiedMaterials[j] = new Material(sharedMat);
+                CreateMaterialAsset(copiedMaterials[j], Path.Combine(materialPath, $"{sharedMat.name}_{namePostFix}.mat"));
             }
 
-            allRenderers[i].materials = materials;
+            childRenderers[i].materials = copiedMaterials;
         }
-
     }
-    
-    
+
+
     static string GetRelativeDataPath(string path) {
         return ASSETS + path.Substring(Application.dataPath.Length);
     }
@@ -189,9 +179,9 @@ public class DependenciesCreator : EditorWindow {
     }
 
     static void CreateMaterialAsset(Material material, string path) {
-        var materialPath = GetRelativeDataPath(path);
+        var newMaterialPath = GetRelativeDataPath(path);
         if (!File.Exists(path))
-            AssetDatabase.CreateAsset(material, materialPath);
+            AssetDatabase.CreateAsset(material, newMaterialPath);
     }
 }
 
