@@ -165,14 +165,17 @@ public class DependenciesCreator : EditorWindow {
         var newChild = Instantiate(sourceObj,  parent.GetChild(childIndex), true);
         newChild.name = newChildName;
 
-        var renderer = newChild.GetComponent<Renderer>();
-        var materials = renderer.sharedMaterials;
+        var allRenderers = newChild.GetComponentsInChildren<Renderer>();
+        for (var i = 0; i < allRenderers.Length; i++) {
+            var materials = allRenderers[i].sharedMaterials;
 
-        for (var i = 0; i < materials.Length; i++) {
-            materials[i] = newMaterial;
+            for (var j = 0; j < materials.Length; j++) {
+                materials[j] = newMaterial;
+            }
+
+            allRenderers[i].materials = materials;
         }
 
-        renderer.materials = materials;
     }
     
     
