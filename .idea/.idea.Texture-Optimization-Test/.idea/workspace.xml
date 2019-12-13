@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb230603-b90a-426b-ad7d-17f733d4b90a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/ItemVariant.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Texture-Optimization-Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Texture-Optimization-Test/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Texture-Optimization-Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Texture-Optimization-Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/ItemBrowser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ItemBrowser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/ItemHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/ItemHolder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Item_Template.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Item_Template.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_FotelGamingowy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_FotelGamingowy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_GamingMouse raw.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_GamingMouse raw.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_GamingPC_1 raw.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_GamingPC_1 raw.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Headphones raw.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Headphones raw.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Keyboard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Keyboard.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik1 mesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik1 mesh.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik2 mesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik2 mesh.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik3 mesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik3 mesh.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_main mesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_main mesh.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Microphone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Microphone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Monitor 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Monitor 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Skaner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Skaner.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_bilard_obj.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_bilard_obj.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/UIController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3721519">
+    <splitter split-orientation="horizontal" split-proportion="0.46335697">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -68,13 +51,15 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/ItemHolder.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="39" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="39" />
                   <folding>
-                    <marker date="1576230446413" expanded="true" signature="60:111" ph="{...}" />
+                    <marker date="1576231723885" expanded="true" signature="60:329" ph="{...}" />
+                    <marker date="1576231723885" expanded="true" signature="208:327" ph="{...}" />
+                    <marker date="1576231723885" expanded="true" signature="264:321" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -95,17 +80,17 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Code/UIController.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+                  <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
                   <folding>
-                    <marker date="1576230512191" expanded="false" signature="6:40" ph="..." />
-                    <marker date="1576230512191" expanded="true" signature="64:649" ph="{...}" />
-                    <marker date="1576230512191" expanded="true" signature="112:647" ph="{...}" />
-                    <marker date="1576230512191" expanded="true" signature="430:581" ph="{...}" />
-                    <marker date="1576230512191" expanded="true" signature="604:641" ph="{...}" />
+                    <marker date="1576231110525" expanded="false" signature="6:40" ph="..." />
+                    <marker date="1576231110525" expanded="true" signature="64:913" ph="{...}" />
+                    <marker date="1576231110525" expanded="true" signature="112:911" ph="{...}" />
+                    <marker date="1576231110525" expanded="true" signature="430:845" ph="{...}" />
+                    <marker date="1576231110525" expanded="true" signature="868:905" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -118,15 +103,16 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/ItemBrowser.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="4" column="24" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
+                <state relative-caret-position="330">
+                  <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
                   <folding>
-                    <marker date="1576230489405" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1576230489405" expanded="true" signature="121:854" ph="{...}" />
-                    <marker date="1576230489405" expanded="true" signature="234:358" ph="{...}" />
-                    <marker date="1576230489405" expanded="true" signature="377:406" ph="{...}" />
-                    <marker date="1576230489405" expanded="true" signature="439:626" ph="{...}" />
-                    <marker date="1576230489405" expanded="true" signature="659:847" ph="{...}" />
+                    <marker date="1576231765869" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1576231765869" expanded="true" signature="121:1167" ph="{...}" />
+                    <marker date="1576231765869" expanded="true" signature="268:457" ph="{...}" />
+                    <marker date="1576231765869" expanded="true" signature="476:505" ph="{...}" />
+                    <marker date="1576231765869" expanded="true" signature="538:694" ph="{...}" />
+                    <marker date="1576231765869" expanded="true" signature="727:886" ph="{...}" />
+                    <marker date="1576231765869" expanded="true" signature="938:1160" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -169,9 +155,9 @@
         <option value="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/ItemVariant.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Editor/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/ItemHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/ItemBrowser.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/UIController.cs" />
       </list>
     </option>
   </component>
@@ -261,12 +247,12 @@
       <option name="presentableId" value="Default" />
       <updated>1576156880315</updated>
       <workItem from="1576156881446" duration="4270000" />
-      <workItem from="1576226216201" duration="2885000" />
+      <workItem from="1576226216201" duration="4007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11966000" />
+    <option name="totallyTimeSpent" value="13088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,7 +267,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09808102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -333,6 +319,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Code/UIController.cs</url>
+          <line>15</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Code/UIController.cs" initialLine="15">
+            <startOffsets>
+              <option value="514" />
+            </startOffsets>
+            <endOffsets>
+              <option value="571" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -401,41 +400,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/UIController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+          <folding>
+            <marker date="1576231110525" expanded="false" signature="6:40" ph="..." />
+            <marker date="1576231110525" expanded="true" signature="64:913" ph="{...}" />
+            <marker date="1576231110525" expanded="true" signature="112:911" ph="{...}" />
+            <marker date="1576231110525" expanded="true" signature="430:845" ph="{...}" />
+            <marker date="1576231110525" expanded="true" signature="868:905" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/ItemHolder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="39" />
           <folding>
-            <marker date="1576230446413" expanded="true" signature="60:111" ph="{...}" />
+            <marker date="1576231723885" expanded="true" signature="60:329" ph="{...}" />
+            <marker date="1576231723885" expanded="true" signature="208:327" ph="{...}" />
+            <marker date="1576231723885" expanded="true" signature="264:321" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/ItemBrowser.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="330">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <marker date="1576230489405" expanded="false" signature="6:78" ph="..." />
-            <marker date="1576230489405" expanded="true" signature="121:854" ph="{...}" />
-            <marker date="1576230489405" expanded="true" signature="234:358" ph="{...}" />
-            <marker date="1576230489405" expanded="true" signature="377:406" ph="{...}" />
-            <marker date="1576230489405" expanded="true" signature="439:626" ph="{...}" />
-            <marker date="1576230489405" expanded="true" signature="659:847" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/UIController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <marker date="1576230512191" expanded="false" signature="6:40" ph="..." />
-            <marker date="1576230512191" expanded="true" signature="64:649" ph="{...}" />
-            <marker date="1576230512191" expanded="true" signature="112:647" ph="{...}" />
-            <marker date="1576230512191" expanded="true" signature="430:581" ph="{...}" />
-            <marker date="1576230512191" expanded="true" signature="604:641" ph="{...}" />
+            <marker date="1576231765869" expanded="false" signature="6:78" ph="..." />
+            <marker date="1576231765869" expanded="true" signature="121:1167" ph="{...}" />
+            <marker date="1576231765869" expanded="true" signature="268:457" ph="{...}" />
+            <marker date="1576231765869" expanded="true" signature="476:505" ph="{...}" />
+            <marker date="1576231765869" expanded="true" signature="538:694" ph="{...}" />
+            <marker date="1576231765869" expanded="true" signature="727:886" ph="{...}" />
+            <marker date="1576231765869" expanded="true" signature="938:1160" ph="{...}" />
           </folding>
         </state>
       </provider>

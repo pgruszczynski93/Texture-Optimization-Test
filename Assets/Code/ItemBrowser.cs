@@ -8,10 +8,14 @@ public class ItemBrowser : MonoBehaviour {
     int itemIndex;
     int totalItems;
 
+    int currentItemVariantIndex;
+
     void Initialise() {
         itemIndex = 0;
+        currentItemVariantIndex = 0;
         totalItems = allItems.Length;
         allItems[itemIndex].gameObject.SetActive(true);
+        ShowItemVariant(0);
     }
 
     void Start() {
@@ -19,18 +23,23 @@ public class ItemBrowser : MonoBehaviour {
     }
 
     public void ShowNextItem() {
-
-        allItems[itemIndex].gameObject.SetActive(false);
+        allItems[itemIndex].ResetVariantsVisibility();
         if (++itemIndex == totalItems)
             itemIndex = 0;
-        allItems[itemIndex].gameObject.SetActive(true);
+        ShowItemVariant(0);
     }
 
     public void ShowPrevItem() {
-        allItems[itemIndex].gameObject.SetActive(false);
+        allItems[itemIndex].ResetVariantsVisibility();
         if (--itemIndex < 0)
             itemIndex = totalItems - 1;
-        allItems[itemIndex].gameObject.SetActive(true);
+        ShowItemVariant(0);
+    }
+
+    public void ShowItemVariant(int variantIndex) {
+        allItems[itemIndex].ItemVariants[currentItemVariantIndex].SetActive(false);
+        currentItemVariantIndex = variantIndex;
+        allItems[itemIndex].ItemVariants[currentItemVariantIndex].SetActive(true);
     }
     
 }

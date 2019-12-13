@@ -14,6 +14,9 @@ namespace Code.Editor {
         void Initialise() {
             nextButton.onClick.AddListener(itemBrowser.ShowNextItem);
             prevButton.onClick.AddListener(itemBrowser.ShowPrevItem);
+            origButton.onClick.AddListener(() => itemBrowser.ShowItemVariant(0));
+            compressedButton.onClick.AddListener(() => itemBrowser.ShowItemVariant(1));
+            compressedScaledButton.onClick.AddListener(() => itemBrowser.ShowItemVariant(2));
         }
 
         void Start() {
