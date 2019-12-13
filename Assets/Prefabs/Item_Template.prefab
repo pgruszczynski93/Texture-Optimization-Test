@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6372451152897488804}
+  - component: {fileID: 6668532118838995264}
   m_Layer: 0
   m_Name: CompressedScaled
   m_TagString: Untagged
@@ -30,6 +31,22 @@ Transform:
   m_Father: {fileID: 2937212512265871912}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6668532118838995264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362890826847294984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af8edd6ae03c6c447a0c5af0a16b7682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variantInfo:
+    variantOption: 2
+    textureSize: 0
+    textureResolution: {x: 1024, y: 1024}
 --- !u!1 &1457887819648625704
 GameObject:
   m_ObjectHideFlags: 0
@@ -76,6 +93,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cb518cf12032cd49918c99683457f73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemVariants:
+  - {fileID: 1838643774199353926}
+  - {fileID: 5556851993103711349}
+  - {fileID: 362890826847294984}
 --- !u!1 &1838643774199353926
 GameObject:
   m_ObjectHideFlags: 0
@@ -85,6 +106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3098407553391337243}
+  - component: {fileID: 5515580778343495149}
   m_Layer: 0
   m_Name: Original
   m_TagString: Untagged
@@ -106,6 +128,22 @@ Transform:
   m_Father: {fileID: 2937212512265871912}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5515580778343495149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838643774199353926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af8edd6ae03c6c447a0c5af0a16b7682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variantInfo:
+    variantOption: 0
+    textureSize: 0
+    textureResolution: {x: 2048, y: 2048}
 --- !u!1 &5556851993103711349
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,6 +153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7709897853150001852}
+  - component: {fileID: 292421752228510765}
   m_Layer: 0
   m_Name: Compressed
   m_TagString: Untagged
@@ -136,3 +175,19 @@ Transform:
   m_Father: {fileID: 2937212512265871912}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &292421752228510765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5556851993103711349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af8edd6ae03c6c447a0c5af0a16b7682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variantInfo:
+    variantOption: 1
+    textureSize: 0
+    textureResolution: {x: 2048, y: 2048}

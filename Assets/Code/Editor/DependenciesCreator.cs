@@ -7,8 +7,6 @@ using UnityEditor.PackageManager;
 using UnityEngine;
 
 public class DependenciesCreator : EditorWindow {
-    const string COMPRESSED_MAT = "compressed_mat.mat";
-    const string COMPRESSED_SCALED_MAT = "compressed_scaled_mat.mat";
     const string ASSETS = "Assets";
     const string PREFABS_DATA = "PrefabsData";
     const string ITEM = "Item";
