@@ -2,6 +2,7 @@
 using System;
 using System.Globalization;
 using System.IO;
+using TinyPng;
 using UnityEditor;
 using UnityEditor.PackageManager;
 using UnityEngine;
@@ -24,13 +25,14 @@ public class DependenciesCreator : EditorWindow {
 
 
     void OnGUI() {
-        TryToDrawLayout();
+        TryToDrawPrefabConfigLayout();
+        TryToDrawUploadImgLayout();
     }
 
     void OnInspectorUpdate() {
         Repaint();
     }
-
+    
     void TryToDrawItemTemplateObjectField() {
         itemTemplate =
             (GameObject) EditorGUILayout.ObjectField("Item template", itemTemplate, typeof(GameObject), true);
@@ -42,7 +44,42 @@ public class DependenciesCreator : EditorWindow {
         window.Show();
     }
 
-    void TryToDrawLayout() {
+    void TryToDrawUploadImgLayout() {
+        if (!GUILayout.Button("Upload img"))
+            return;
+
+        UploadImage();
+    }
+
+    async void UploadImage() {
+        using (var png = new TinyPngClient("Dh3sqdPbnmTgvXkxx7l1c1kPrTRg2c0S")) {
+            //Create a task to compress an image.
+            //this gives you the information about your image as stored by TinyPNG
+            //they don't give you the actual bits (as you may want to chain this with a resize
+            //operation without caring for the originally sized image).
+            var compressImageTask = png.Compress("C:\\Users\\range\\Desktop\\Textures_Test\\Originals\\FotelGamingowy_red tex albedo.png");
+
+            //If you want to actually save this compressed image off
+            //it will need to be downloaded 
+            var compressedImage = await compressImageTask.Download();
+
+//            //you can then get the bytes
+//            var bytes = await compressedImage.GetImageByteData();
+//
+//            //get a stream instead
+//            var stream = await compressedImage.GetImageByteData();
+
+            //or just save to disk
+            await compressedImage.SaveImageToDisk("C:\\Users\\range\\Desktop\\Textures_Test\\test2.png");
+
+            //Putting it all together
+//            await png.Compress("path")
+//                .Download()
+//                .SaveImageToDisk("savedPath");
+        }
+    }
+
+    void TryToDrawPrefabConfigLayout() {
         TryToDrawItemTemplateObjectField();
 
         EditorGUILayout.LabelField($"Selected prefabs: {Selection.gameObjects.Length}");

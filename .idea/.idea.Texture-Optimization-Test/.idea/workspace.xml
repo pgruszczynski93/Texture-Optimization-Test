@@ -2,193 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb230603-b90a-426b-ad7d-17f733d4b90a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/TinyPNG.3.2.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/TinyPNG.3.2.0.nupkg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/lib.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/lib/net45.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/lib/net45/TinyPNG.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/lib/net45/TinyPNG.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/lib/netstandard1.3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/lib/netstandard1.3/TinyPNG.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/lib/netstandard1.3/TinyPNG.dll.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Texture-Optimization-Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Texture-Optimization-Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/_ReusableTextures/Drewno/Dark_Wood/dark_shiny_wood_1_01_diffuse.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/_ReusableTextures/Drewno/Dark_Wood/dark_shiny_wood_1_01_diffuse.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_FotelGamingowy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_FotelGamingowy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_GamingMouse raw.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_GamingMouse raw.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_GamingPC_1 raw.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_GamingPC_1 raw.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Headphones raw.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Headphones raw.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Keyboard.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Keyboard.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik1 mesh.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik1 mesh.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik2 mesh.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik2 mesh.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik3 mesh.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_glosnik3 mesh.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_main mesh.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_KinoDomowe_main mesh.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Microphone.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Microphone.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Monitor 2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Monitor 2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Skaner.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Skaner.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_bilard_obj.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_bilard_obj.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy/CompressedData/Base Red_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy/CompressedData/Base Red_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy/CompressedScaledData/Base Red_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy/CompressedScaledData/Base Red_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedData/GamingMouse_base mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedData/GamingMouse_base mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedData/GamingMouse_emission mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedData/GamingMouse_emission mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedScaledData/GamingMouse_base mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedScaledData/GamingMouse_base mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedScaledData/GamingMouse_emission mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedScaledData/GamingMouse_emission mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Back mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Back mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Front mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Front mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Glowing mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Glowing mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Transparent mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Transparent mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Back mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Back mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Front mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Front mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Glowing mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Glowing mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Transparent mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Transparent mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_base mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_base mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_detail mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_detail mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_emmision mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_emmision mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_fabric mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_fabric mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_base mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_base mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_detail mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_detail mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_emmision mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_emmision mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_fabric mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_fabric mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedData/KeyboardLights_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedData/KeyboardLights_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedData/Keyboard_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedData/Keyboard_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedScaledData/KeyboardLights_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedScaledData/KeyboardLights_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedScaledData/Keyboard_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedScaledData/Keyboard_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Base Dark wood mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Base Dark wood mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Fabric Grey mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Fabric Grey mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Metal Back mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Metal Back mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Fabric Grey mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Fabric Grey mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Base Dark wood mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Base Dark wood mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Fabric Grey mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Fabric Grey mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Metal Back mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Metal Back mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Fabric Grey mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Fabric Grey mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Base Dark wood mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Base Dark wood mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Detail metal Light mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Detail metal Light mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Metal Back mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Metal Back mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Plastic black mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Plastic black mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Detail metal Light mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Detail metal Light mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Plastic black mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Plastic black mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Base Dark wood mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Base Dark wood mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Detail metal Light mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Detail metal Light mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Metal Back mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Metal Back mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Detail metal Light mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Detail metal Light mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone/CompressedData/Microphone_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone/CompressedData/Microphone_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone/CompressedScaledData/Microphone_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone/CompressedScaledData/Microphone_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2/CompressedData/Monitor_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2/CompressedData/Monitor_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2/CompressedScaledData/Monitor_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2/CompressedScaledData/Monitor_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner/CompressedData/KEKISH_diffuse_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner/CompressedData/KEKISH_diffuse_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner/CompressedScaledData/KEKISH_diffuse_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner/CompressedScaledData/KEKISH_diffuse_compressedScaled.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj/CompressedData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj/CompressedData/bilard_original_mat_compressed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj/CompressedData/bilard_original_mat_compressed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj/CompressedScaledData.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj/CompressedScaledData/bilard_original_mat_compressedScaled.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj/CompressedScaledData/bilard_original_mat_compressedScaled.mat.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,40 +23,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.68085104">
+    <splitter split-orientation="horizontal" split-proportion="0.7081851">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="186" column="79" lean-forward="true" selection-start-line="186" selection-start-column="79" selection-end-line="186" selection-end-column="79" />
+                <state relative-caret-position="406">
+                  <caret line="35" selection-start-line="35" selection-end-line="35" />
                   <folding>
-                    <marker date="1576237318361" expanded="false" signature="23:147" ph="..." />
-                    <marker date="1576237318361" expanded="true" signature="197:6901" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="684:718" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="749:775" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="821:962" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="1045:1130" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="1159:1492" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="1535:1806" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="1862:2126" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="2008:2120" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="2191:2327" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="2366:2576" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="2637:3337" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="2802:2943" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="3433:4081" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="3494:4041" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="4203:5013" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="5157:6297" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="5561:6081" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="5716:5998" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="6125:6291" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="6205:6281" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="6351:6427" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="6474:6563" ph="{...}" />
-                    <marker date="1576237318361" expanded="true" signature="6643:6899" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="23:162" ph="..." />
+                    <marker date="1576248727700" expanded="true" signature="212:8181" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="699:781" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="812:838" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="888:1029" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="1112:1197" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="1235:1331" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="1362:2608" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="1444:2602" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="1458:1745" ph="/* Create a task to compress an image. ... */" />
+                    <marker date="1576248727700" expanded="true" signature="1899:2000" ph="/* If you want to actually save this compressed image off ... */" />
+                    <marker date="1576248727700" expanded="true" signature="2072:2327" ph="/* you can then get the bytes ... */" />
+                    <marker date="1576248727700" expanded="true" signature="2447:2592" ph="/* Putting it all together ... */" />
+                    <marker date="1576248727700" expanded="true" signature="2649:2982" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="3025:3296" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="3352:3616" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="3498:3610" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="3681:3817" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="3856:4066" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="4127:4827" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="4292:4433" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="4923:5571" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="4984:5531" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="5693:6503" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="6647:7577" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="7051:7571" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="7206:7488" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="7631:7707" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="7754:7843" ph="{...}" />
+                    <marker date="1576248727700" expanded="true" signature="7923:8179" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -239,7 +70,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Code/ItemHolder.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
+                <state relative-caret-position="150">
                   <caret line="13" selection-start-line="13" selection-end-line="13" />
                   <folding>
                     <marker date="1576231723885" expanded="true" signature="60:329" ph="{...}" />
@@ -253,7 +84,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Code/ItemVariant.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
+                <state relative-caret-position="240">
                   <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
                   <folding>
                     <marker date="1576226939519" expanded="true" signature="68:179" ph="{...}" />
@@ -268,7 +99,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Code/UIController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
+                <state relative-caret-position="225">
                   <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
                   <folding>
                     <marker date="1576231110525" expanded="false" signature="6:40" ph="..." />
@@ -284,12 +115,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/ItemBrowser.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+                <state relative-caret-position="300">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
                   <folding>
                     <marker date="1576231765869" expanded="false" signature="6:78" ph="..." />
                     <marker date="1576231765869" expanded="true" signature="121:1167" ph="{...}" />
@@ -327,24 +158,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/ItemVariant.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/ItemBrowser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/UIController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/ItemHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/UIController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -360,22 +179,61 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
-    <option name="y" value="38" />
-    <option name="width" value="1934" />
-    <option name="height" value="1047" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="BundleSources" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="BundleSources" type="1045f7f1:UnityExplorerNode" />
+              <item name="_HeavyArtwork" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="BundleSources" type="1045f7f1:UnityExplorerNode" />
+              <item name="_HeavyArtwork" type="1045f7f1:UnityExplorerNode" />
+              <item name="_ReusableTextures" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="BundleSources" type="1045f7f1:UnityExplorerNode" />
+              <item name="_HeavyArtwork" type="1045f7f1:UnityExplorerNode" />
+              <item name="_ReusableTextures" type="1045f7f1:UnityExplorerNode" />
+              <item name="Drewno" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="BundleSources" type="1045f7f1:UnityExplorerNode" />
+              <item name="_HeavyArtwork" type="1045f7f1:UnityExplorerNode" />
+              <item name="_ReusableTextures" type="1045f7f1:UnityExplorerNode" />
+              <item name="Drewno" type="1045f7f1:UnityExplorerNode" />
+              <item name="Dark_Wood" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -388,16 +246,23 @@
               <item name="Code" type="1045f7f1:UnityExplorerNode" />
               <item name="Editor" type="1045f7f1:UnityExplorerNode" />
             </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
     </panes>
   </component>
@@ -405,8 +270,10 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/_ReusableTextures/Drewno/Dark_Wood/dark_shiny_wood_1_01_normal.png" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -445,12 +312,15 @@
       <option name="presentableId" value="Default" />
       <updated>1576156880315</updated>
       <workItem from="1576156881446" duration="4270000" />
-      <workItem from="1576226216201" duration="8064000" />
+      <workItem from="1576226216201" duration="8851000" />
+      <workItem from="1576241634218" duration="435000" />
+      <workItem from="1576242093395" duration="287000" />
+      <workItem from="1576242714342" duration="2743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17145000" />
+    <option name="totallyTimeSpent" value="21397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,10 +332,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09808102" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10127932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -477,9 +347,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.2588889" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.17666666" />
       <window_info anchor="bottom" id="Unity" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
@@ -520,87 +390,54 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs</url>
-          <line>164</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" initialLine="164">
+          <line>72</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" initialLine="72">
             <startOffsets>
-              <option value="6012" />
+              <option value="2340" />
             </startOffsets>
             <endOffsets>
-              <option value="6058" />
+              <option value="2433" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs</url>
+          <line>63</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" initialLine="63">
+            <startOffsets>
+              <option value="2013" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2070" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs</url>
-          <line>161</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" initialLine="161">
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" initialLine="50">
             <startOffsets>
-              <option value="5867" />
+              <option value="1311" />
             </startOffsets>
             <endOffsets>
-              <option value="5984" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs</url>
-          <line>155</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" initialLine="155">
-            <startOffsets>
-              <option value="5512" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5560" />
+              <option value="1325" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs</url>
-          <line>156</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" initialLine="156">
-            <startOffsets>
-              <option value="5575" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5653" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs</url>
-          <line>140</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" initialLine="140">
-            <startOffsets>
-              <option value="4795" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4878" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs</url>
-          <line>189</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" initialLine="189">
-            <startOffsets>
-              <option value="6746" />
-            </startOffsets>
-            <endOffsets>
-              <option value="6799" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>&quot;C:\\Users\\range\\Desktop\\Textures_Test\\Originals\\Bilard_Unioque tex albedo.png&quot;</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>new Material(sharedMat)</expression-string>
         <language-id>C#</language-id>
@@ -649,26 +486,26 @@
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>currentIndex / selectionCount</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/MaterialInstancesCreator.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/UIController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/UIController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Code/ItemHolder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1576231723885" expanded="true" signature="60:329" ph="{...}" />
+            <marker date="1576231723885" expanded="true" signature="208:327" ph="{...}" />
+            <marker date="1576231723885" expanded="true" signature="264:321" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/ItemVariant.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="240">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <marker date="1576226939519" expanded="true" signature="68:179" ph="{...}" />
@@ -681,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/UIController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="225">
           <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
           <folding>
             <marker date="1576231110525" expanded="false" signature="6:40" ph="..." />
@@ -695,8 +532,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/ItemBrowser.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <marker date="1576231765869" expanded="false" signature="6:78" ph="..." />
             <marker date="1576231765869" expanded="true" signature="121:1167" ph="{...}" />
@@ -709,48 +546,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/ItemHolder.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <marker date="1576231723885" expanded="true" signature="60:329" ph="{...}" />
-            <marker date="1576231723885" expanded="true" signature="208:327" ph="{...}" />
-            <marker date="1576231723885" expanded="true" signature="264:321" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/TinyPNG.3.2.0/TinyPNG.3.2.0.nupkg">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="186" column="79" lean-forward="true" selection-start-line="186" selection-start-column="79" selection-end-line="186" selection-end-column="79" />
+        <state relative-caret-position="406">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <marker date="1576237318361" expanded="false" signature="23:147" ph="..." />
-            <marker date="1576237318361" expanded="true" signature="197:6901" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="684:718" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="749:775" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="821:962" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="1045:1130" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="1159:1492" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="1535:1806" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="1862:2126" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="2008:2120" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="2191:2327" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="2366:2576" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="2637:3337" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="2802:2943" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="3433:4081" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="3494:4041" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="4203:5013" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="5157:6297" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="5561:6081" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="5716:5998" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="6125:6291" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="6205:6281" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="6351:6427" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="6474:6563" ph="{...}" />
-            <marker date="1576237318361" expanded="true" signature="6643:6899" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="23:162" ph="..." />
+            <marker date="1576248727700" expanded="true" signature="212:8181" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="699:781" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="812:838" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="888:1029" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="1112:1197" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="1235:1331" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="1362:2608" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="1444:2602" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="1458:1745" ph="/* Create a task to compress an image. ... */" />
+            <marker date="1576248727700" expanded="true" signature="1899:2000" ph="/* If you want to actually save this compressed image off ... */" />
+            <marker date="1576248727700" expanded="true" signature="2072:2327" ph="/* you can then get the bytes ... */" />
+            <marker date="1576248727700" expanded="true" signature="2447:2592" ph="/* Putting it all together ... */" />
+            <marker date="1576248727700" expanded="true" signature="2649:2982" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="3025:3296" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="3352:3616" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="3498:3610" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="3681:3817" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="3856:4066" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="4127:4827" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="4292:4433" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="4923:5571" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="4984:5531" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="5693:6503" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="6647:7577" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="7051:7571" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="7206:7488" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="7631:7707" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="7754:7843" ph="{...}" />
+            <marker date="1576248727700" expanded="true" signature="7923:8179" ph="{...}" />
           </folding>
         </state>
       </provider>
