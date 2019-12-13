@@ -1,4 +1,5 @@
 using System.IO;
+using System.Text;
 using TinyPng;
 using UnityEditor;
 using UnityEngine;
@@ -9,10 +10,12 @@ public class TinyPngUploader : EditorWindow {
     static string tinyPngApiKey;
     static string[] texturesGUIDs;
 
+    static bool isTexturesFoldoutClicked;
+    static Vector2 scrollViewPos;
+
     void OnGUI() {
-        DrawAPIKeyField();
-        TryToDrawUploadImgLayout();
-        TryToFindAllTextures();
+        DrawLayout();
+
     }
 
     void OnInspectorUpdate() {
@@ -31,6 +34,38 @@ public class TinyPngUploader : EditorWindow {
         tinyPngApiKey = "Dh3sqdPbnmTgvXkxx7l1c1kPrTRg2c0S"; // hardcoded key
     }
 
+    void DrawLayout() {
+
+        EditorGUILayout.BeginVertical();
+        DrawAPIKeyField();
+        DrawTexturePathsFoldout();
+        TryToDrawUploadImgLayout();
+        TryToFindAllTextures();
+        EditorGUILayout.EndVertical();
+
+    }
+
+    void DrawTexturePathsFoldout() {
+        scrollViewPos = EditorGUILayout.BeginScrollView(scrollViewPos);
+        isTexturesFoldoutClicked = EditorGUILayout.Foldout(isTexturesFoldoutClicked, "Texture asset paths:");
+        if (isTexturesFoldoutClicked) {
+            GUILayout.Label(GetTexturesPathsString());
+        }
+        EditorGUILayout.EndScrollView();
+    }
+
+    string GetTexturesPathsString() {
+        if (texturesGUIDs == null || texturesGUIDs.Length == 0)
+            return "No texture paths.";
+
+        var strBuilder = new StringBuilder();
+        for (var i = 0; i < texturesGUIDs.Length; i++) {
+            strBuilder.Append($"{AssetDatabase.GUIDToAssetPath(texturesGUIDs[i])}\n");
+        }
+
+        return strBuilder.ToString();
+    }
+    
     void TryToDrawUploadImgLayout() {
         if (!GUILayout.Button("Upload img"))
             return;
@@ -76,12 +111,7 @@ public class TinyPngUploader : EditorWindow {
         if (!GUILayout.Button("Find all textures GUIDs"))
             return;
 
-        Debug.Log(Path.GetDirectoryName(Application.dataPath));
-//        texturesGuIDs = AssetDatabase.FindAssets("t: Texture", null);
-//
-//        foreach (var t in texturesGuIDs) {
-//            Debug.Log(AssetDatabase.GUIDToAssetPath(t));
-//        }
+        texturesGUIDs = AssetDatabase.FindAssets("t: Texture");
     }
 }
 
