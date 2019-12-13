@@ -159,10 +159,11 @@ public class DependenciesCreator : EditorWindow {
             for (var j = 0; j < copiedMaterials.Length; j++) {
                 var sharedMat = sourceRenderers[i].sharedMaterials[j];
                 copiedMaterials[j] = new Material(sharedMat);
-                CreateMaterialAsset(copiedMaterials[j], Path.Combine(materialPath, $"{sharedMat.name}_{namePostFix}.mat"));
+                CreateOrLoadMaterialAsset(ref copiedMaterials[j], Path.Combine(materialPath, $"{sharedMat.name}_{namePostFix}.mat"));
             }
 
             childRenderers[i].materials = copiedMaterials;
+            
         }
     }
 
@@ -176,10 +177,12 @@ public class DependenciesCreator : EditorWindow {
             Directory.CreateDirectory(path);
     }
 
-    static void CreateMaterialAsset(Material material, string path) {
+    static void CreateOrLoadMaterialAsset(ref Material material, string path) {
         var newMaterialPath = GetRelativeDataPath(path);
         if (!File.Exists(path))
             AssetDatabase.CreateAsset(material, newMaterialPath);
+        else
+            material = AssetDatabase.LoadAssetAtPath<Material>(newMaterialPath);
     }
 }
 
