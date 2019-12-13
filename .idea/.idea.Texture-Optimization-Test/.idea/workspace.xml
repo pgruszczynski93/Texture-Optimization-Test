@@ -11,14 +11,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.38767508">
+    <splitter split-orientation="horizontal" split-proportion="0.37030813">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+                <state relative-caret-position="-83">
+                  <caret line="97" column="71" selection-start-line="97" selection-start-column="71" selection-end-line="97" selection-end-column="71" />
                   <folding>
                     <marker date="1576251305140" expanded="true" signature="23:162" ph="..." />
                     <marker date="1576251305140" expanded="true" signature="212:6733" ph="{...}" />
@@ -100,29 +100,26 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="52" selection-start-line="52" selection-end-line="52" />
+                <state relative-caret-position="1">
+                  <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
                   <folding>
-                    <marker date="1576252788866" expanded="false" signature="6:88" ph="..." />
-                    <marker date="1576252788866" expanded="true" signature="152:3500" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="317:347" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="378:404" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="478:559" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="588:767" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="791:1010" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="1047:1382" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="1269:1335" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="1420:1771" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="1628:1726" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="1813:1909" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="1940:3314" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="1991:2073" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="2134:3308" ph="{...}" />
-                    <marker date="1576252788866" expanded="true" signature="2148:2435" ph="/* Create a task to compress an image. ... */" />
-                    <marker date="1576252788866" expanded="true" signature="2605:2706" ph="/* If you want to actually save this compressed image off ... */" />
-                    <marker date="1576252788866" expanded="true" signature="2778:3033" ph="/* you can then get the bytes ... */" />
-                    <marker date="1576252788866" expanded="true" signature="3153:3298" ph="/* Putting it all together ... */" />
-                    <marker date="1576252788866" expanded="true" signature="3348:3498" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="6:88" ph="..." />
+                    <marker date="1576254372641" expanded="true" signature="152:3447" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="455:485" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="516:542" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="616:697" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="726:992" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="1016:1235" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="1272:1727" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="1546:1603" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="1761:1963" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="2005:2586" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="2213:2507" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="2640:2731" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="2773:2869" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="2900:3445" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="2951:3033" ph="{...}" />
+                    <marker date="1576254372641" expanded="true" signature="3094:3439" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -163,6 +160,8 @@
       <find>itemVariants</find>
       <find>substr</find>
       <find>foldout</find>
+      <find>GetTexturesPathsString</find>
+      <find>button</find>
     </findStrings>
     <replaceStrings>
       <replace>allItems</replace>
@@ -172,12 +171,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/ItemVariant.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/ItemBrowser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/ItemHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -275,10 +280,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="4144">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="16840">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="4144" />
+      <option name="pid" value="16840" />
       <method v="2" />
     </configuration>
   </component>
@@ -296,12 +301,12 @@
       <workItem from="1576226216201" duration="8851000" />
       <workItem from="1576241634218" duration="435000" />
       <workItem from="1576242093395" duration="287000" />
-      <workItem from="1576242714342" duration="6108000" />
+      <workItem from="1576242714342" duration="7692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24762000" />
+    <option name="totallyTimeSpent" value="26346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,7 +321,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.048507463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.048507463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -324,7 +329,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.15222222" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15222222" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -369,11 +374,54 @@
           </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs</url>
+          <line>77</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" initialLine="70">
+            <startOffsets>
+              <option value="2303" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2364" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>filePath.Contains(&quot;.png&quot;)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>filePath.Contains(&quot;.jpg&quot;)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!filePath.Contains(&quot;.png&quot;)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!filePath.Contains(&quot;.jpg&quot;)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!filePath.Contains(&quot;.jpg&quot;) || !filePath.Contains(&quot;.png&quot;)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>&quot;C:\\Users\\range\\Desktop\\Textures_Test\\Originals\\Bilard_Unioque tex albedo.png&quot;</expression-string>
         <language-id>C#</language-id>
@@ -394,36 +442,6 @@
       </expression>
       <expression>
         <expression-string>childRenderers</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sourceRenderers[i].sharedMaterials</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sourceRenderers[i]</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>childRenderers[</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sourceRenderers[i].gameObject.name</expression-string>
         <language-id>C#</language-id>
         <custom-info>RiderImportsList:</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -493,8 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="-83">
+          <caret line="97" column="71" selection-start-line="97" selection-start-column="71" selection-end-line="97" selection-end-column="71" />
           <folding>
             <marker date="1576251305140" expanded="true" signature="23:162" ph="..." />
             <marker date="1576251305140" expanded="true" signature="212:6733" ph="{...}" />
@@ -525,29 +543,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="1">
+          <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
           <folding>
-            <marker date="1576252788866" expanded="false" signature="6:88" ph="..." />
-            <marker date="1576252788866" expanded="true" signature="152:3500" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="317:347" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="378:404" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="478:559" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="588:767" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="791:1010" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="1047:1382" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="1269:1335" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="1420:1771" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="1628:1726" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="1813:1909" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="1940:3314" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="1991:2073" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="2134:3308" ph="{...}" />
-            <marker date="1576252788866" expanded="true" signature="2148:2435" ph="/* Create a task to compress an image. ... */" />
-            <marker date="1576252788866" expanded="true" signature="2605:2706" ph="/* If you want to actually save this compressed image off ... */" />
-            <marker date="1576252788866" expanded="true" signature="2778:3033" ph="/* you can then get the bytes ... */" />
-            <marker date="1576252788866" expanded="true" signature="3153:3298" ph="/* Putting it all together ... */" />
-            <marker date="1576252788866" expanded="true" signature="3348:3498" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="6:88" ph="..." />
+            <marker date="1576254372641" expanded="true" signature="152:3447" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="455:485" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="516:542" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="616:697" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="726:992" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="1016:1235" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="1272:1727" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="1546:1603" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="1761:1963" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="2005:2586" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="2213:2507" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="2640:2731" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="2773:2869" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="2900:3445" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="2951:3033" ph="{...}" />
+            <marker date="1576254372641" expanded="true" signature="3094:3439" ph="{...}" />
           </folding>
         </state>
       </provider>
