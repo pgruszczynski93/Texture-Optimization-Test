@@ -23,10 +23,8 @@ public class DependenciesCreator : EditorWindow {
 
     string selectedObjPath;
 
-
     void OnGUI() {
         TryToDrawPrefabConfigLayout();
-        TryToDrawUploadImgLayout();
     }
 
     void OnInspectorUpdate() {
@@ -42,41 +40,6 @@ public class DependenciesCreator : EditorWindow {
     static void DrawWindow() {
         var window = GetWindow<DependenciesCreator>();
         window.Show();
-    }
-
-    void TryToDrawUploadImgLayout() {
-        if (!GUILayout.Button("Upload img"))
-            return;
-
-        UploadImage();
-    }
-
-    async void UploadImage() {
-        using (var png = new TinyPngClient("Dh3sqdPbnmTgvXkxx7l1c1kPrTRg2c0S")) {
-            //Create a task to compress an image.
-            //this gives you the information about your image as stored by TinyPNG
-            //they don't give you the actual bits (as you may want to chain this with a resize
-            //operation without caring for the originally sized image).
-            var compressImageTask = png.Compress("C:\\Users\\range\\Desktop\\Textures_Test\\Originals\\FotelGamingowy_red tex albedo.png");
-
-            //If you want to actually save this compressed image off
-            //it will need to be downloaded 
-            var compressedImage = await compressImageTask.Download();
-
-//            //you can then get the bytes
-//            var bytes = await compressedImage.GetImageByteData();
-//
-//            //get a stream instead
-//            var stream = await compressedImage.GetImageByteData();
-
-            //or just save to disk
-            await compressedImage.SaveImageToDisk("C:\\Users\\range\\Desktop\\Textures_Test\\test2.png");
-
-            //Putting it all together
-//            await png.Compress("path")
-//                .Download()
-//                .SaveImageToDisk("savedPath");
-        }
     }
 
     void TryToDrawPrefabConfigLayout() {

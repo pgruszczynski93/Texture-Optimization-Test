@@ -27,6 +27,7 @@
         <e p="Code" t="Include">
           <e p="Editor" t="Include">
             <e p="DependenciesCreator.cs" t="Include" />
+            <e p="TinyPngUploader.cs" t="Include" />
           </e>
           <e p="ItemBrowser.cs" t="Include" />
           <e p="ItemHolder.cs" t="Include" />
