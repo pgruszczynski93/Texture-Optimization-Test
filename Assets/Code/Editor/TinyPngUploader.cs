@@ -115,13 +115,16 @@ public class TinyPngUploader : EditorWindow {
             return;
         }
 
+        var testList = texturesAbsolutePaths.GetRange(0, 4);
+
         using (var png = new TinyPngClient(tinyPngApiKey)) {
-            var compressImageTask =
-                png.Compress("C:\\Users\\range\\Desktop\\Textures_Test\\Originals\\FotelGamingowy_red tex albedo.png");
+            for (var i = 0; i < testList.Count; i++) {
+                var compressImageTask =
+                    png.Compress(testList[i]);
 
-            var compressedImage = await compressImageTask.Download();
-            await compressedImage.SaveImageToDisk("C:\\Users\\range\\Desktop\\Textures_Test\\test2.png");
-
+                var compressedImage = await compressImageTask.Download();
+                await compressedImage.SaveImageToDisk($"C:\\Users\\range\\Desktop\\Textures_Test\\test{i}.png");
+            }
         }
     }
 }
