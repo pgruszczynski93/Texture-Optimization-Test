@@ -1,7 +1,9 @@
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using TinyPng;
 using UnityEditor;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 #if UNITY_EDITOR
@@ -10,6 +12,7 @@ public class TinyPngUploader : EditorWindow {
     static string tinyPngApiKey;
     static string texturePathsStr;
     static string[] texturesGUIDs;
+    static List<string> texturesAbsolutePaths;
 
     static bool isTexturesFoldoutClicked;
     static bool areTexturesFound;
@@ -44,8 +47,8 @@ public class TinyPngUploader : EditorWindow {
         EditorGUILayout.BeginVertical();
         DrawInputFields();
         DrawTexturePathsFoldout();
-        TryToDrawUploadImgLayout();
         TryToFindAllTextures();
+        TryToDrawUploadImgLayout();
         EditorGUILayout.EndVertical();
 
     }
@@ -64,6 +67,7 @@ public class TinyPngUploader : EditorWindow {
         if (!GUILayout.Button("Find all textures GUIDs"))
             return;
 
+        texturesAbsolutePaths = new List<string>();
         texturesGUIDs = AssetDatabase.FindAssets("t: Texture");
         texturePathsStr = GetTexturesPathsString();
     }
@@ -77,7 +81,10 @@ public class TinyPngUploader : EditorWindow {
             var filePath = AssetDatabase.GUIDToAssetPath(texturesGUIDs[i]);
             if (!filePath.Contains(".jpg") && !filePath.Contains(".png"))
                 continue;
-            strBuilder.Append($"{GetAbsoluteTexturesPath(filePath)}\n");
+
+            var absolutePath = GetAbsoluteTexturesPath(filePath);
+            texturesAbsolutePaths.Add(absolutePath);
+            strBuilder.Append($"{absolutePath}\n");
             ++foundTexturesCount;
         }
 
@@ -91,9 +98,14 @@ public class TinyPngUploader : EditorWindow {
     }
     
     void TryToDrawUploadImgLayout() {
-        if (!GUILayout.Button("Upload img"))
+        if (!GUILayout.Button("Upload textures"))
             return;
 
+        if (texturesAbsolutePaths == null || texturesAbsolutePaths.Count == 0) {
+            Debug.LogError("Nothing to upload!");
+            return;
+        }
+        
         UploadImage();
     }
 
