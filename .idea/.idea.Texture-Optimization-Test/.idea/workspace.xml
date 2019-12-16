@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" line="64" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fb230603-b90a-426b-ad7d-17f733d4b90a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Texture-Optimization-Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Texture-Optimization-Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net20.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net20/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net20/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net20/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net20/Newtonsoft.Json.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net35.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net35/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net35/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net35/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net35/Newtonsoft.Json.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net40.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net40/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net40/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net40/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net40/Newtonsoft.Json.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net45.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/netstandard1.0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/netstandard1.0/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/netstandard1.0/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/netstandard1.0/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/netstandard1.0/Newtonsoft.Json.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/portable-net40+sl5+wp80+win8+wpa81.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Newtonsoft.Json.9.0.1/lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,16 +46,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.32605043">
+    <splitter split-orientation="horizontal" split-proportion="0.29372197">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="172">
-                  <caret line="104" column="79" selection-start-line="104" selection-start-column="78" selection-end-line="104" selection-end-column="79" />
+                <state relative-caret-position="2880">
+                  <caret line="123" column="32" lean-forward="true" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
                   <folding>
-                    <marker date="1576251305140" expanded="true" signature="23:162" ph="..." />
+                    <marker date="1576251305140" expanded="false" signature="23:162" ph="..." />
                     <marker date="1576251305140" expanded="true" signature="212:6733" ph="{...}" />
                     <marker date="1576251305140" expanded="true" signature="698:744" ph="{...}" />
                     <marker date="1576251305140" expanded="true" signature="775:801" ph="{...}" />
@@ -100,28 +135,36 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="350">
-                  <caret line="114" column="19" lean-forward="true" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
+                <state relative-caret-position="126">
+                  <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
                   <folding>
-                    <marker date="1576255091137" expanded="true" signature="6:156" ph="..." />
-                    <marker date="1576255091137" expanded="true" signature="220:3960" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="570:600" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="631:657" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="731:812" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="841:1107" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="1131:1350" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="1387:1842" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="1661:1718" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="1876:2130" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="2172:2852" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="2380:2773" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="2906:2997" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="3039:3310" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="3191:3272" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="3341:3958" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="3392:3474" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="3597:3952" ph="{...}" />
-                    <marker date="1576255091137" expanded="true" signature="3652:3942" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="6:170" ph="..." />
+                    <marker date="1576500268716" expanded="true" signature="218:280" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="326:5910" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="864:893" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="924:950" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="1024:1105" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="1135:1542" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="1170:1536" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="1571:2061" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="2085:2302" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="2339:2789" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="2625:2682" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="2817:3140" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="3174:3271" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="3217:3265" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="3305:3418" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="3447:3654" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="3696:4342" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="3904:4297" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="4396:4487" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="4525:4851" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="4705:4786" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="4879:4989" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="5020:5908" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="5071:5153" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="5352:5902" ph="{...}" />
+                    <marker date="1576500268716" expanded="true" signature="5407:5839" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -130,7 +173,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Code/ItemBrowser.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
+                <state relative-caret-position="225">
                   <caret line="20" selection-start-line="20" selection-end-line="20" />
                   <folding>
                     <marker date="1576231765869" expanded="false" signature="6:78" ph="..." />
@@ -164,7 +207,14 @@
       <find>foldout</find>
       <find>GetTexturesPathsString</find>
       <find>button</find>
+      <find>areTexturesFound</find>
+      <find>textures foun</find>
+      <find>progressbar</find>
       <find>upload</find>
+      <find>foundTexturesCount</find>
+      <find>find</find>
+      <find>downloadProgress</find>
+      <find>findall</find>
     </findStrings>
     <replaceStrings>
       <replace>allItems</replace>
@@ -174,19 +224,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/ItemVariant.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8AD4741-AFCD-4198-8653-BEB269D02D9C/ea/ce0b2016/TinyPngClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/ItemBrowser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/ItemHolder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/UIController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B6EBFE37-2224-44F7-AE09-DFE7AAD5988D/f8/6a827045/EditorGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/ItemHolder.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -213,10 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -252,7 +293,11 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,6 +307,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/_ReusableTextures/Drewno/Dark_Wood/dark_shiny_wood_1_01_normal.png" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
   </component>
   <component name="RunDashboard">
@@ -305,11 +351,12 @@
       <workItem from="1576241634218" duration="435000" />
       <workItem from="1576242093395" duration="287000" />
       <workItem from="1576242714342" duration="8549000" />
+      <workItem from="1576491202831" duration="7108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27203000" />
+    <option name="totallyTimeSpent" value="34311000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -322,8 +369,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.048507463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04904051" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -335,7 +383,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.2588889" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" weight="0.2588889" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.17666666" />
       <window_info anchor="bottom" id="Unity" order="10" />
@@ -378,29 +426,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs</url>
-          <line>81</line>
+          <line>130</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" initialLine="70">
             <startOffsets>
-              <option value="2470" />
+              <option value="3994" />
             </startOffsets>
             <endOffsets>
-              <option value="2531" />
+              <option value="4055" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs</url>
-          <line>114</line>
+          <line>169</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" initialLine="114">
             <startOffsets>
-              <option value="3457" />
+              <option value="5136" />
             </startOffsets>
             <endOffsets>
-              <option value="3464" />
+              <option value="5143" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs</url>
+          <line>146</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" initialLine="96">
+            <startOffsets>
+              <option value="4525" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4526" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -466,6 +527,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/MaterialInstancesCreator.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/UIController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/TinyPNG.3.2.0/TinyPNG.3.2.0.nupkg" />
     <entry file="file://$PROJECT_DIR$/Assets/Code/ItemHolder.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -507,7 +569,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/ItemBrowser.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="225">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <marker date="1576231765869" expanded="false" signature="6:78" ph="..." />
@@ -521,15 +583,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/TinyPNG.3.2.0/TinyPNG.3.2.0.nupkg">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8AD4741-AFCD-4198-8653-BEB269D02D9C/ea/ce0b2016/TinyPngClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+          <folding>
+            <marker date="1576495453951" expanded="true" signature="0:343" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1576495453951" expanded="false" signature="351:597" ph="..." />
+            <marker date="1576495453951" expanded="true" signature="616:6627" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="661:6625" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="878:1401" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="1102:1257" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="1355:1393" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="1461:1795" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="1900:2253" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="2377:2446" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="2500:2566" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="2642:2982" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="3052:3369" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="3439:4105" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="4265:5421" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="4654:4694" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="4825:4928" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="5599:6317" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="6344:6424" ph="{...}" />
+            <marker date="1576495453951" expanded="true" signature="6476:6621" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B6EBFE37-2224-44F7-AE09-DFE7AAD5988D/f8/6a827045/EditorGUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="5523" column="34" selection-start-line="5523" selection-start-column="23" selection-end-line="5523" selection-end-column="34" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/DependenciesCreator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="104" column="79" selection-start-line="104" selection-start-column="78" selection-end-line="104" selection-end-column="79" />
+        <state relative-caret-position="2880">
+          <caret line="123" column="32" lean-forward="true" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
           <folding>
-            <marker date="1576251305140" expanded="true" signature="23:162" ph="..." />
+            <marker date="1576251305140" expanded="false" signature="23:162" ph="..." />
             <marker date="1576251305140" expanded="true" signature="212:6733" ph="{...}" />
             <marker date="1576251305140" expanded="true" signature="698:744" ph="{...}" />
             <marker date="1576251305140" expanded="true" signature="775:801" ph="{...}" />
@@ -558,28 +653,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="114" column="19" lean-forward="true" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
+        <state relative-caret-position="126">
+          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
           <folding>
-            <marker date="1576255091137" expanded="true" signature="6:156" ph="..." />
-            <marker date="1576255091137" expanded="true" signature="220:3960" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="570:600" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="631:657" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="731:812" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="841:1107" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="1131:1350" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="1387:1842" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="1661:1718" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="1876:2130" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="2172:2852" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="2380:2773" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="2906:2997" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="3039:3310" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="3191:3272" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="3341:3958" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="3392:3474" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="3597:3952" ph="{...}" />
-            <marker date="1576255091137" expanded="true" signature="3652:3942" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="6:170" ph="..." />
+            <marker date="1576500268716" expanded="true" signature="218:280" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="326:5910" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="864:893" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="924:950" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="1024:1105" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="1135:1542" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="1170:1536" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="1571:2061" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="2085:2302" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="2339:2789" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="2625:2682" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="2817:3140" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="3174:3271" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="3217:3265" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="3305:3418" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="3447:3654" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="3696:4342" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="3904:4297" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="4396:4487" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="4525:4851" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="4705:4786" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="4879:4989" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="5020:5908" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="5071:5153" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="5352:5902" ph="{...}" />
+            <marker date="1576500268716" expanded="true" signature="5407:5839" ph="{...}" />
           </folding>
         </state>
       </provider>
