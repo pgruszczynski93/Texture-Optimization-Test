@@ -4,7 +4,6 @@ using System.IO;
 using System.Text;
 using TinyPng;
 using UnityEditor;
-using UnityEditor.PackageManager;
 using UnityEngine;
 
 #if UNITY_EDITOR
@@ -15,8 +14,13 @@ public enum CompressionType {
 }
 
 public class TinyPngUploader : EditorWindow {
+
+    static bool compressAllFiles = true;
+    
     static int texturesSelectedToUpload;
     static int foundTexturesCount;
+    static int compressFromFileStartIndex;
+    static int compressFileRange;
     static float downloadProgress;
     static float progressValue;
 
@@ -66,8 +70,17 @@ public class TinyPngUploader : EditorWindow {
         
         compressionType = (CompressionType) EditorGUILayout.EnumPopup("Compression type: ", compressionType);
         imgResolution = EditorGUILayout.Vector2Field("Width & height", imgResolution);
+        DrawCompressAllToggle();
         SetImgResolution();
         saveTexturesPath = EditorGUILayout.TextField("Save path:", saveTexturesPath);
+    }
+
+    void DrawCompressAllToggle() {
+        compressAllFiles = EditorGUILayout.Toggle("Compress all textures?: ", compressAllFiles);
+        if (!compressAllFiles) {
+            compressFromFileStartIndex = EditorGUILayout.IntField("Start from index: ", compressFromFileStartIndex);
+            compressFileRange = EditorGUILayout.IntField("How many items to compress (from given index): ", compressFileRange);
+        }
     }
 
     void DrawLayout() {
@@ -81,7 +94,7 @@ public class TinyPngUploader : EditorWindow {
 
     void DrawTexturePathsFoldout() {
         scrollViewPos =
-            EditorGUILayout.BeginScrollView(scrollViewPos, GUILayout.ExpandWidth(true), GUILayout.Height(250));
+            EditorGUILayout.BeginScrollView(scrollViewPos, GUILayout.ExpandWidth(true), GUILayout.ExpandHeight(true));
         isTexturesFoldoutClicked = EditorGUILayout.Foldout(isTexturesFoldoutClicked, "Texture asset paths:");
         if (isTexturesFoldoutClicked) {
             GUILayout.Label(texturePathsStr);
@@ -93,12 +106,13 @@ public class TinyPngUploader : EditorWindow {
     }
 
     void DrawStatistics() {
-        DrawSpaces(6);
+        var vertLayoutRect = EditorGUILayout.BeginVertical();
         EditorGUILayout.LabelField($"Textures found: {foundTexturesCount}");
         progressValue = downloadProgress / texturesSelectedToUpload;
         EditorGUILayout.Space();
-        EditorGUI.ProgressBar(new Rect(3, 310, position.width - 6, 20), progressValue,
+        EditorGUI.ProgressBar(vertLayoutRect, progressValue,
             progressText);
+         EditorGUILayout.EndVertical();
     }
 
     void DrawSpaces(int spaces) {
@@ -133,7 +147,7 @@ public class TinyPngUploader : EditorWindow {
 
             var absolutePath = GetAbsoluteTexturesPath(filePath);
             texturesAbsolutePaths.Add(absolutePath);
-            strBuilder.Append($"{absolutePath}\n");
+            strBuilder.Append($"{i+1}:\t{absolutePath}\n");
             ++foundTexturesCount;
         }
 
@@ -145,41 +159,55 @@ public class TinyPngUploader : EditorWindow {
     }
 
     void TryToDrawUploadImgLayout() {
-        if (!GUILayout.Button("Upload textures"))
+        if (!GUILayout.Button("Upload & compress textures"))
             return;
 
         FindAllTextures();
 
         if (texturesAbsolutePaths == null || texturesAbsolutePaths.Count == 0) {
-            Debug.LogError("Nothing to upload!");
+            Debug.LogError("Nothing to process!");
             return;
         }
         
         DrawSaveDialog();
 
-        UploadImage();
+        TryToCompressImages();
     }
 
     void DrawSaveDialog() {
-        saveTexturesPath = EditorUtility.SaveFilePanel("Select texture save destination", "", "", "");
+        var defaultName = compressionType == CompressionType.DefaultCompression
+            ? "compressed2k_"
+            : "compressedScaled1k_";
+        saveTexturesPath = EditorUtility.SaveFilePanel("Select texture save destination", "", defaultName, "");
     }
 
-    async void UploadImage() {
+    void TryToCompressImages() {
         if (string.IsNullOrEmpty(tinyPngApiKey)) {
             Debug.LogError("API Key is required");
             return;
         }
         
         downloadProgress = 0;
-        var testList = texturesAbsolutePaths.GetRange(3, 4);
-        texturesSelectedToUpload = 4;
 
+        if (compressAllFiles) {
+            CompressImages(texturesAbsolutePaths);
+        }
+        else {
+            var selectedFiles = texturesAbsolutePaths.GetRange(compressFromFileStartIndex, compressFileRange);
+            CompressImages(selectedFiles);
+        }
+    }
+
+    async void CompressImages(IList<string> selectedFiles) {
+        texturesSelectedToUpload = selectedFiles.Count;
+        
         using (var png = new TinyPngClient(tinyPngApiKey)) {
-            for (var i = 0; i < testList.Count; i++) {
+            
+            for (var i = 0; i < texturesSelectedToUpload; i++) {
                 ++downloadProgress;
 
                 var compressImageTask =
-                    png.Compress(testList[i]);
+                    png.Compress(selectedFiles[i]);
 
                 progressText = $"File {downloadProgress} of {texturesSelectedToUpload} is processing.";
 
