@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Threading.Tasks;
 using TinyPng;
+using TinyPng.ResizeOperations;
+using TinyPng.Responses;
 using UnityEditor;
 using UnityEngine;
 
@@ -17,9 +20,12 @@ public class TinyPngUploader : EditorWindow {
     const string DEFAULT_SAVE_DIR_NAME = "SavedTextures";
     const string COMPRESSED = "Compressed2k";
     const string COMPRESSED_SCALED = "CompressedScaled1k";
+    const string defaultSearchFilter = "t: Texture";
+    const string defaultTinyPngApiKey = "Dh3sqdPbnmTgvXkxx7l1c1kPrTRg2c0S";
+    const string defaultSearchDirectory = "Assets";
 
     bool compressAllFiles;
-    
+
     int texturesSelectedToUpload;
     int foundTexturesCount;
     int compressFromFileStartIndex;
@@ -32,14 +38,16 @@ public class TinyPngUploader : EditorWindow {
     string tinyPngApiKey;
     string texturePathsStr;
     string progressText;
+    string searchFilter;
     string saveTexturesRootPath;
     string defaultSaveDestination;
+    string[] searchDirectories;
     string[] texturesGUIDs;
     List<string> texturesAbsolutePaths;
 
     bool isTexturesFoldoutClicked;
     Vector2 scrollViewPos;
-    Vector2 imgResolution;
+    Vector2Int imgResolution;
 
     void OnGUI() {
         DrawLayout();
@@ -58,10 +66,10 @@ public class TinyPngUploader : EditorWindow {
     void SetImgResolution() {
         switch (compressionType) {
             case CompressionType.CompressedAndScaled_1024_1024:
-                imgResolution = new Vector2(1024, 1024);
+                imgResolution = new Vector2Int(1024, 1024);
                 break;
             case CompressionType.DefaultCompression:
-                imgResolution = new Vector2(2048, 2048);
+                imgResolution = new Vector2Int(2048, 2048);
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
@@ -69,21 +77,27 @@ public class TinyPngUploader : EditorWindow {
     }
 
     void DrawInputFields() {
-        tinyPngApiKey = EditorGUILayout.TextField("Tiny PNG API key", tinyPngApiKey);
-        tinyPngApiKey = "Dh3sqdPbnmTgvXkxx7l1c1kPrTRg2c0S"; // hardcoded key
-        
+        tinyPngApiKey = EditorGUILayout.TextField("Tiny PNG API key",
+            string.IsNullOrEmpty(tinyPngApiKey) ? defaultTinyPngApiKey : tinyPngApiKey);
+
         compressionType = (CompressionType) EditorGUILayout.EnumPopup("Compression type: ", compressionType);
-        imgResolution = EditorGUILayout.Vector2Field("Width & height", imgResolution);
+        imgResolution = EditorGUILayout.Vector2IntField("Width & height", imgResolution);
+        searchFilter = EditorGUILayout.TextField("Search Filter (default directory is \'Assets\': ",
+            string.IsNullOrEmpty(searchFilter) ? defaultSearchFilter : searchFilter);
+        DrawArrayOfTextureDirs();
         DrawCompressAllToggle();
         SetImgResolution();
         saveTexturesRootPath = EditorGUILayout.TextField("Save path:", saveTexturesRootPath);
     }
 
+    void DrawArrayOfTextureDirs() { }
+
     void DrawCompressAllToggle() {
         compressAllFiles = EditorGUILayout.Toggle("Compress all textures?: ", compressAllFiles);
         if (!compressAllFiles) {
             compressFromFileStartIndex = EditorGUILayout.IntField("Start from index: ", compressFromFileStartIndex);
-            compressFileRange = EditorGUILayout.IntField("How many items to compress (from given index): ", compressFileRange);
+            compressFileRange =
+                EditorGUILayout.IntField("How many items to compress (from given index): ", compressFileRange);
         }
     }
 
@@ -116,7 +130,7 @@ public class TinyPngUploader : EditorWindow {
         EditorGUILayout.Space();
         EditorGUI.ProgressBar(vertLayoutRect, progressValue,
             progressText);
-         EditorGUILayout.EndVertical();
+        EditorGUILayout.EndVertical();
     }
 
     void TryToFindAllTextures() {
@@ -129,10 +143,11 @@ public class TinyPngUploader : EditorWindow {
     void FindAllTextures() {
         foundTexturesCount = 0;
         texturesAbsolutePaths = new List<string>();
-        texturesGUIDs = AssetDatabase.FindAssets("t: Texture");
+        texturesGUIDs = AssetDatabase.FindAssets(searchFilter,
+            (searchDirectories == null || searchDirectories.Length == 0) ? new[] {defaultSearchDirectory} : searchDirectories);
         texturePathsStr = GetTexturesPathsString();
     }
-    
+
     string GetTexturesPathsString() {
         if (texturesGUIDs == null || texturesGUIDs.Length == 0)
             return "No texture paths.";
@@ -140,16 +155,20 @@ public class TinyPngUploader : EditorWindow {
         var strBuilder = new StringBuilder();
         for (var i = 0; i < texturesGUIDs.Length; i++) {
             var filePath = AssetDatabase.GUIDToAssetPath(texturesGUIDs[i]);
-            if (!filePath.Contains(".jpg") && !filePath.Contains(".png"))
+            if (!IsTexturePathValid(filePath))
                 continue;
 
             var absolutePath = GetAbsoluteTexturesPath(filePath);
             texturesAbsolutePaths.Add(absolutePath);
-            strBuilder.Append($"{i+1}:\t{absolutePath}\n");
+            strBuilder.Append($"{i + 1}:\t{absolutePath}\n");
             ++foundTexturesCount;
         }
 
         return strBuilder.ToString();
+    }
+
+    bool IsTexturePathValid(string filepath) {
+        return filepath.Contains(".jpg") || filepath.Contains(".png");
     }
 
     string GetAbsoluteTexturesPath(string filePath) {
@@ -166,23 +185,23 @@ public class TinyPngUploader : EditorWindow {
             Debug.LogError("Nothing to process!");
             return;
         }
-        
-        TryToSaveAndCompress();
 
+        TryToSaveAndCompress();
     }
 
     void TryToSaveAndCompress() {
         saveTexturesRootPath = Path.Combine(Application.persistentDataPath, DEFAULT_SAVE_DIR_NAME);
         if (!File.Exists(saveTexturesRootPath))
             Directory.CreateDirectory(saveTexturesRootPath);
-        
-        saveTexturesRootPath = EditorUtility.SaveFilePanel("Select texture save destination", Application.persistentDataPath, "SKIP_THIS_FIELD", "");
-        
+
+        saveTexturesRootPath = EditorUtility.SaveFilePanel("Select texture save destination",
+            Application.persistentDataPath, "SKIP_THIS_FIELD", "");
+
         if (string.IsNullOrEmpty(saveTexturesRootPath)) {
             Debug.LogError("Invalid save path - compression cancelled");
             return;
         }
-        
+
         TryToCompressImages();
     }
 
@@ -191,19 +210,20 @@ public class TinyPngUploader : EditorWindow {
             Debug.LogError("API Key is required");
             return;
         }
-        
+
         downloadProgress = 0;
 
         if (compressAllFiles) {
-            CompressImages(texturesAbsolutePaths);
+            CompressImagesAsync(texturesAbsolutePaths);
         }
         else {
             if (compressFromFileStartIndex == 0 || compressFileRange == 0) {
                 Debug.LogError("Invalid start index & range - compression cancelled");
                 return;
             }
+
             var selectedFiles = texturesAbsolutePaths.GetRange(compressFromFileStartIndex, compressFileRange);
-            CompressImages(selectedFiles);
+            CompressImagesAsync(selectedFiles);
         }
     }
 
@@ -213,35 +233,50 @@ public class TinyPngUploader : EditorWindow {
             : COMPRESSED_SCALED;
     }
 
-    async void CompressImages(IList<string> selectedFiles) {
-        string saveTextureFullPath;
-        string currentFile;
-        var prefix = GetPrefix();
-
-        saveTexturesRootPath = Path.GetDirectoryName(saveTexturesRootPath);
-        
-        texturesSelectedToUpload = selectedFiles.Count;
-        
+    async void CompressImagesAsync(IList<string> selectedFiles) {
         using (var png = new TinyPngClient(tinyPngApiKey)) {
-            
+            string currentFilePath;
+            string saveTextureFullPath;
+
+            var prefix = GetPrefix();
+            var fitOperation = new FitResizeOperation(imgResolution.x, imgResolution.y);
+
+            saveTexturesRootPath = Path.GetDirectoryName(saveTexturesRootPath);
+            texturesSelectedToUpload = selectedFiles.Count;
+
             for (var i = 0; i < texturesSelectedToUpload; i++) {
                 ++downloadProgress;
 
-                currentFile = selectedFiles[i];
-                
-                var compressImageTask =
-                    png.Compress(currentFile);
+                currentFilePath = selectedFiles[i];
 
                 progressText = $"File {downloadProgress} of {texturesSelectedToUpload} is processing.";
+                saveTextureFullPath =
+                    Path.Combine(saveTexturesRootPath, $"{prefix}_{Path.GetFileName(currentFilePath)}");
 
-                var compressedImage = await compressImageTask.Download();
-                saveTextureFullPath = Path.Combine(saveTexturesRootPath, $"{prefix}_{Path.GetFileName(currentFile)}");
-                
-                await compressedImage.SaveImageToDisk(saveTextureFullPath);
+                var compressImageTask =
+                    png.Compress(currentFilePath);
+
+                if (compressionType == CompressionType.DefaultCompression) {
+                    await DownloadAndSaveTask(compressImageTask, saveTextureFullPath);
+                }
+                else {
+                    await ResizeAndSaveTask(compressImageTask, saveTextureFullPath, fitOperation);
+                }
             }
 
             progressText = "Compression completed";
         }
+    }
+
+    async Task ResizeAndSaveTask(Task<TinyPngCompressResponse> compressImageTask, string saveTexturePath,
+        FitResizeOperation resizeOperation) {
+        var compressedImage = await compressImageTask.Resize(resizeOperation);
+        await compressedImage.SaveImageToDisk(saveTexturePath);
+    }
+
+    async Task DownloadAndSaveTask(Task<TinyPngCompressResponse> compressImageTask, string saveTexturePath) {
+        var compressedImage = await compressImageTask.Download();
+        await compressedImage.SaveImageToDisk(saveTexturePath);
     }
 }
 
