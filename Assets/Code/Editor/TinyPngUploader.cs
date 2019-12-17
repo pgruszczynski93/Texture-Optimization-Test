@@ -88,6 +88,7 @@ public class TinyPngUploader : EditorWindow {
         DrawCompressAllToggle();
         SetImgResolution();
         saveTexturesRootPath = EditorGUILayout.TextField("Save path:", saveTexturesRootPath);
+        EditorGUILayout.LabelField($"Textures found: {foundTexturesCount}");
     }
 
     void DrawArrayOfTextureDirs() { }
@@ -125,7 +126,6 @@ public class TinyPngUploader : EditorWindow {
 
     void DrawStatistics() {
         var vertLayoutRect = EditorGUILayout.BeginVertical();
-        EditorGUILayout.LabelField($"Textures found: {foundTexturesCount}");
         progressValue = downloadProgress / texturesSelectedToUpload;
         EditorGUILayout.Space();
         EditorGUI.ProgressBar(vertLayoutRect, progressValue,
@@ -160,7 +160,7 @@ public class TinyPngUploader : EditorWindow {
 
             var absolutePath = GetAbsoluteTexturesPath(filePath);
             texturesAbsolutePaths.Add(absolutePath);
-            strBuilder.Append($"{i + 1}:\t{absolutePath}\n");
+            strBuilder.Append($"{foundTexturesCount}:\t{absolutePath}\n");
             ++foundTexturesCount;
         }
 
@@ -214,7 +214,7 @@ public class TinyPngUploader : EditorWindow {
         downloadProgress = 0;
 
         if (compressAllFiles) {
-            CompressImagesAsync(texturesAbsolutePaths);
+            TryToCompressImagesAsync(texturesAbsolutePaths);
         }
         else {
             if (compressFromFileStartIndex == 0 || compressFileRange == 0) {
@@ -223,7 +223,7 @@ public class TinyPngUploader : EditorWindow {
             }
 
             var selectedFiles = texturesAbsolutePaths.GetRange(compressFromFileStartIndex, compressFileRange);
-            CompressImagesAsync(selectedFiles);
+            TryToCompressImagesAsync(selectedFiles);
         }
     }
 
@@ -233,7 +233,7 @@ public class TinyPngUploader : EditorWindow {
             : COMPRESSED_SCALED;
     }
 
-    async void CompressImagesAsync(IList<string> selectedFiles) {
+    async void TryToCompressImagesAsync(IList<string> selectedFiles) {
         using (var png = new TinyPngClient(tinyPngApiKey)) {
             string currentFilePath;
             string saveTextureFullPath;
@@ -245,22 +245,33 @@ public class TinyPngUploader : EditorWindow {
             texturesSelectedToUpload = selectedFiles.Count;
 
             for (var i = 0; i < texturesSelectedToUpload; i++) {
-                ++downloadProgress;
+                try {
+                    ++downloadProgress;
 
-                currentFilePath = selectedFiles[i];
+                    currentFilePath = selectedFiles[i];
 
-                progressText = $"File {downloadProgress} of {texturesSelectedToUpload} is processing.";
-                saveTextureFullPath =
-                    Path.Combine(saveTexturesRootPath, $"{prefix}_{Path.GetFileName(currentFilePath)}");
+                    progressText = $"File {downloadProgress} of {texturesSelectedToUpload} is processing.";
+                    saveTextureFullPath =
+                        Path.Combine(saveTexturesRootPath, $"{prefix}_{Path.GetFileName(currentFilePath)}");
 
-                var compressImageTask =
-                    png.Compress(currentFilePath);
+                    var compressImageTask =
+                        png.Compress(currentFilePath);
 
-                if (compressionType == CompressionType.DefaultCompression) {
-                    await DownloadAndSaveTask(compressImageTask, saveTextureFullPath);
+                    if (compressionType == CompressionType.DefaultCompression) {
+                        await DownloadAndSaveTask(compressImageTask, saveTextureFullPath);
+                    }
+                    else {
+                        await ResizeAndSaveTask(compressImageTask, saveTextureFullPath, fitOperation);
+                    }
                 }
-                else {
-                    await ResizeAndSaveTask(compressImageTask, saveTextureFullPath, fitOperation);
+                catch (TinyPngApiException ex) {
+                    Debug.LogError($"[TinyPngApiException] {ex.Message}");
+                }
+                catch (ArgumentOutOfRangeException ex) {
+                    Debug.LogError($"[ArgumentException] {ex.Message}");
+                }
+                catch (ArgumentNullException ex) {
+                    Debug.LogError($"[ArgumentNullException] {ex.Message}");
                 }
             }
 
