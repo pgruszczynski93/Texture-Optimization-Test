@@ -5,7 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb230603-b90a-426b-ad7d-17f733d4b90a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_Bilard tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_Bilard tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_FotelGamingowy tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_FotelGamingowy tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_GamingMouse tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_GamingMouse tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_GamingPC tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_GamingPC tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_Headphones tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_Headphones tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_Keyboard tex Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_Keyboard tex Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_KinoDomowe tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_KinoDomowe tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_Microphone tex Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_Microphone tex Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_Monitor 2 tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_Monitor 2 tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_dark_shiny_wood_1_01_normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_dark_shiny_wood_1_01_normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_kekish_norm.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/1024Textures/CompressedScaled1k_kekish_norm.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_Bilard tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_Bilard tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_FotelGamingowy tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_FotelGamingowy tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_GamingMouse tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_GamingMouse tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_GamingPC tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_GamingPC tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_Headphones tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_Headphones tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_Keyboard tex Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_Keyboard tex Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_KinoDomowe tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_KinoDomowe tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_Microphone tex Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_Microphone tex Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_Monitor 2 tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_Monitor 2 tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_dark_shiny_wood_1_01_normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_dark_shiny_wood_1_01_normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_kekish_norm.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/TinyPNG Textures/2048Textures/Compressed2k_kekish_norm.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy/CompressedData/Base Red_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy/CompressedData/Base Red_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy/CompressedScaledData/Base Red_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_FotelGamingowy/CompressedScaledData/Base Red_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedData/GamingMouse_base mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedData/GamingMouse_base mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedData/GamingMouse_emission mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedData/GamingMouse_emission mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedScaledData/GamingMouse_base mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedScaledData/GamingMouse_base mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedScaledData/GamingMouse_emission mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingMouse raw/CompressedScaledData/GamingMouse_emission mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Back mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Back mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Front mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Front mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Glowing mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Glowing mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Transparent mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedData/GamingPC_1_Transparent mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Back mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Back mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Front mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Front mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Glowing mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Glowing mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Transparent mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_GamingPC_1 raw/CompressedScaledData/GamingPC_1_Transparent mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_base mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_base mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_detail mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_detail mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_emmision mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_emmision mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_fabric mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedData/Headphones_fabric mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_base mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_base mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_detail mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_detail mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_emmision mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_emmision mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_fabric mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Headphones raw/CompressedScaledData/Headphones_fabric mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedData/Keyboard_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedData/Keyboard_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedScaledData/Keyboard_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Keyboard/CompressedScaledData/Keyboard_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Base Dark wood mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Base Dark wood mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Fabric Grey mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Fabric Grey mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Metal Back mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedData/Metal Back mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Fabric Grey mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Fabric Grey mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik1 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Base Dark wood mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Base Dark wood mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Fabric Grey mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Fabric Grey mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Metal Back mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedData/Metal Back mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Fabric Grey mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Fabric Grey mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik2 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Base Dark wood mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Base Dark wood mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Detail metal Light mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Detail metal Light mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Metal Back mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Metal Back mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Plastic black mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedData/Plastic black mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Detail metal Light mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Detail metal Light mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Plastic black mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_glosnik3 mesh/CompressedScaledData/Plastic black mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Base Dark wood mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Base Dark wood mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Detail metal Light mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Detail metal Light mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Metal Back mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedData/Metal Back mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Base Dark wood mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Detail metal Light mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Detail metal Light mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_KinoDomowe_main mesh/CompressedScaledData/Metal Back mat_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone/CompressedData/Microphone_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone/CompressedData/Microphone_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone/CompressedScaledData/Microphone_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Microphone/CompressedScaledData/Microphone_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2/CompressedData/Monitor_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2/CompressedData/Monitor_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2/CompressedScaledData/Monitor_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Monitor 2/CompressedScaledData/Monitor_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner/CompressedData/KEKISH_diffuse_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner/CompressedData/KEKISH_diffuse_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner/CompressedScaledData/KEKISH_diffuse_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_Skaner/CompressedScaledData/KEKISH_diffuse_compressedScaled.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj/CompressedData/bilard_original_mat_compressed.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj/CompressedData/bilard_original_mat_compressed.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj/CompressedScaledData/bilard_original_mat_compressedScaled.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PrefabSources/PrefabsData_bilard_obj/CompressedScaledData/bilard_original_mat_compressedScaled.mat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,51 +182,51 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="80">
-                  <caret line="144" column="51" lean-forward="true" selection-start-line="144" selection-start-column="51" selection-end-line="144" selection-end-column="51" />
+                <state relative-caret-position="-49">
+                  <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
                   <folding>
-                    <marker date="1576593487960" expanded="false" signature="6:223" ph="..." />
-                    <marker date="1576593487960" expanded="true" signature="271:333" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="379:10163" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="1354:1383" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="1414:1440" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="1514:1595" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="1625:2038" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="1660:2032" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="2067:2810" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="2884:3292" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="3014:3286" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="3316:3533" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="3570:4027" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="3863:3920" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="4055:4430" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="4464:4577" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="4606:4940" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="4978:5620" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="5186:5575" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="5667:5745" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="5799:5890" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="5928:6240" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="6119:6201" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="6274:6847" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="6705:6809" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="6880:7546" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="6931:7013" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="7076:7148" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="7148:7540" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="7239:7365" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="7571:7705" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="7776:9612" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="7837:9606" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="8248:9543" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="8270:9093" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="8809:8923" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="8923:9075" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="9141:9235" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="9291:9383" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="9433:9529" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="9764:9914" ph="{...}" />
-                    <marker date="1576593487960" expanded="true" signature="10024:10161" ph="{...}" />
+                    <marker date="1576593553113" expanded="false" signature="6:223" ph="..." />
+                    <marker date="1576593553113" expanded="true" signature="271:333" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="379:10163" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="1354:1383" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="1414:1440" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="1514:1595" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="1625:2038" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="1660:2032" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="2067:2887" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="2961:3369" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="3091:3363" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="3393:3610" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="3647:4104" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="3940:3997" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="4132:4430" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="4464:4577" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="4606:4940" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="4978:5620" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="5186:5575" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="5667:5745" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="5799:5890" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="5928:6240" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="6119:6201" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="6274:6847" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="6705:6809" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="6880:7546" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="6931:7013" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="7076:7148" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="7148:7540" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="7239:7365" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="7571:7705" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="7776:9612" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="7837:9606" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="8248:9543" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="8270:9093" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="8809:8923" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="8923:9075" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="9141:9235" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="9291:9383" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="9433:9529" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="9764:9914" ph="{...}" />
+                    <marker date="1576593553113" expanded="true" signature="10024:10161" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -246,8 +325,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1912" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -351,12 +430,12 @@
       <workItem from="1576242093395" duration="287000" />
       <workItem from="1576242714342" duration="8549000" />
       <workItem from="1576491202831" duration="23958000" />
-      <workItem from="1576580994035" duration="7644000" />
+      <workItem from="1576580994035" duration="8308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58805000" />
+    <option name="totallyTimeSpent" value="59469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,8 +447,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04957356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -713,51 +791,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Editor/TinyPngUploader.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="144" column="51" lean-forward="true" selection-start-line="144" selection-start-column="51" selection-end-line="144" selection-end-column="51" />
+        <state relative-caret-position="-49">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
-            <marker date="1576593487960" expanded="false" signature="6:223" ph="..." />
-            <marker date="1576593487960" expanded="true" signature="271:333" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="379:10163" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="1354:1383" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="1414:1440" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="1514:1595" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="1625:2038" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="1660:2032" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="2067:2810" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="2884:3292" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="3014:3286" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="3316:3533" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="3570:4027" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="3863:3920" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="4055:4430" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="4464:4577" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="4606:4940" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="4978:5620" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="5186:5575" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="5667:5745" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="5799:5890" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="5928:6240" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="6119:6201" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="6274:6847" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="6705:6809" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="6880:7546" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="6931:7013" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="7076:7148" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="7148:7540" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="7239:7365" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="7571:7705" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="7776:9612" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="7837:9606" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="8248:9543" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="8270:9093" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="8809:8923" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="8923:9075" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="9141:9235" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="9291:9383" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="9433:9529" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="9764:9914" ph="{...}" />
-            <marker date="1576593487960" expanded="true" signature="10024:10161" ph="{...}" />
+            <marker date="1576593553113" expanded="false" signature="6:223" ph="..." />
+            <marker date="1576593553113" expanded="true" signature="271:333" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="379:10163" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="1354:1383" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="1414:1440" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="1514:1595" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="1625:2038" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="1660:2032" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="2067:2887" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="2961:3369" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="3091:3363" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="3393:3610" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="3647:4104" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="3940:3997" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="4132:4430" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="4464:4577" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="4606:4940" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="4978:5620" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="5186:5575" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="5667:5745" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="5799:5890" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="5928:6240" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="6119:6201" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="6274:6847" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="6705:6809" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="6880:7546" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="6931:7013" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="7076:7148" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="7148:7540" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="7239:7365" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="7571:7705" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="7776:9612" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="7837:9606" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="8248:9543" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="8270:9093" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="8809:8923" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="8923:9075" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="9141:9235" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="9291:9383" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="9433:9529" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="9764:9914" ph="{...}" />
+            <marker date="1576593553113" expanded="true" signature="10024:10161" ph="{...}" />
           </folding>
         </state>
       </provider>
