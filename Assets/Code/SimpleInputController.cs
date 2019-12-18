@@ -17,6 +17,10 @@ public class SimpleInputController : MonoBehaviour {
     void GetInput() {
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
+
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
     }
 
     void Rotate() {
