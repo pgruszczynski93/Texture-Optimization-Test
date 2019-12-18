@@ -5,27 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb230603-b90a-426b-ad7d-17f733d4b90a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Texture-Optimization-Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Texture-Optimization-Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/Fonts &amp; Materials/TextMesh Pro Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/Fonts &amp; Materials/TextMesh Pro Fonts/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/Fonts &amp; Materials/TextMesh Pro Fonts/Resources/ARIAL SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/Fonts &amp; Materials/TextMesh Pro Fonts/Resources/ARIAL SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/TextMesh Pro.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/TextMesh Pro/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/TextMesh Pro/Resources/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Scanner/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/SimpleInputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/SimpleInputController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/TinyPNG.3.2.0.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/TinyPNG.3.2.0.nupkg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/lib/netstandard1.3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/lib/netstandard1.3/TinyPNG.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/TinyPNG.3.2.0/lib/netstandard1.3/TinyPNG.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Bilard/Bilard tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Bilard/Bilard tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Bilard/Bilard_Unioque tex albedo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Bilard/Bilard_Unioque tex albedo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Bilard/Bilard_Unique tex metal rough.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/Bilard/Bilard_Unique tex metal rough.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Armchair/FotelGamingowy tex metal rough.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Armchair/FotelGamingowy tex metal rough.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Armchair/FotelGamingowy tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Armchair/FotelGamingowy tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Armchair/FotelGamingowy_red tex albedo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Armchair/FotelGamingowy_red tex albedo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingHeadphones/Headphones tex albedo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingHeadphones/Headphones tex albedo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingHeadphones/Headphones tex metal rough.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingHeadphones/Headphones tex metal rough.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingHeadphones/Headphones tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingHeadphones/Headphones tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingMouse/GamingMouse tex albedo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingMouse/GamingMouse tex albedo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingMouse/GamingMouse tex metal rough.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingMouse/GamingMouse tex metal rough.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingPC/GamingPC tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingPC/GamingPC tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingPC/GamingPC_1 tex albedo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingPC/GamingPC_1 tex albedo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingPC/GamingPC_1 tex emissive.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingPC/GamingPC_1 tex emissive.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingPC/GamingPC_1 tex metal rough.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/GamingPC/GamingPC_1 tex metal rough.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Keyboard/Keyboard tex BaseColor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Keyboard/Keyboard tex BaseColor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Keyboard/Keyboard tex MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Keyboard/Keyboard tex MetallicSmoothness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Keyboard/Keyboard tex Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/Keyboard/Keyboard tex Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/KinoDomowe/KinoDomowe tex ao.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/KinoDomowe/KinoDomowe tex ao.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/KinoDomowe/KinoDomowe tex color.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/KinoDomowe/KinoDomowe tex color.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/KinoDomowe/KinoDomowe tex metal rough.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/KinoDomowe/KinoDomowe tex metal rough.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/KinoDomowe/KinoDomowe tex normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BundleSources/_HeavyArtwork/Artwork/GameDay/KinoDomowe/KinoDomowe tex normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_FotelGamingowy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_FotelGamingowy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_GamingPC_1 raw.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_GamingPC_1 raw.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Headphones raw.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_Headphones raw.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_bilard_obj.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ItemsPrefabs/Item_bilard_obj.prefab" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -378,7 +383,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63699000" />
+    <option name="totallyTimeSpent" value="63700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

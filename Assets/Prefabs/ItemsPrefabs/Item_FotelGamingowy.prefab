@@ -46,7 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variantInfo:
     variantOption: 1
-    textureSize: 0
     textureResolution: {x: 2048, y: 2048}
 --- !u!1 &1837782802847787797
 GameObject:
@@ -362,7 +361,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variantInfo:
     variantOption: 0
-    textureSize: 0
     textureResolution: {x: 2048, y: 2048}
 --- !u!1 &6389393553489052159
 GameObject:
@@ -519,7 +517,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variantInfo:
     variantOption: 2
-    textureSize: 0
     textureResolution: {x: 1024, y: 1024}
 --- !u!1 &7078903379115918364
 GameObject:
