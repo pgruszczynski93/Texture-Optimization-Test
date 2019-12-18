@@ -10,6 +10,8 @@ public class ItemBrowser : MonoBehaviour {
 
     int currentItemVariantIndex;
 
+    Transform itemVariantTransform;
+
     void Initialise() {
         itemIndex = 0;
         currentItemVariantIndex = 0;
@@ -20,6 +22,10 @@ public class ItemBrowser : MonoBehaviour {
 
     void Start() {
         Initialise();
+    }
+
+    public Transform ItemVariantTransform {
+        get => itemVariantTransform;
     }
 
     public void ShowNextItem() {
@@ -40,6 +46,7 @@ public class ItemBrowser : MonoBehaviour {
         allItems[itemIndex].ItemVariants[currentItemVariantIndex].SetActive(false);
         currentItemVariantIndex = variantIndex;
         allItems[itemIndex].ItemVariants[currentItemVariantIndex].SetActive(true);
+        itemVariantTransform = allItems[itemIndex].transform;
     }
     
 }

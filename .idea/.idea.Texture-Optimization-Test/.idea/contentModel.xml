@@ -32,6 +32,7 @@
           <e p="ItemBrowser.cs" t="Include" />
           <e p="ItemHolder.cs" t="Include" />
           <e p="ItemVariant.cs" t="Include" />
+          <e p="SimpleInputController.cs" t="Include" />
           <e p="UIController.cs" t="Include" />
         </e>
       </e>
